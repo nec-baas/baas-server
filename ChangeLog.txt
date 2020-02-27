@@ -1,3 +1,19 @@
+2019-12-20 : ver 7.5.3
+
+        * 不具合修正
+          - [12174] インスタレーション更新にてchannelsにNull値を指定するとサーバが500エラーを返す問題を修正
+
+        * 使用するライブラリ、フレームワークのバージョン更新
+          - Spring Framework: 5.1.3 -> 5.1.8
+          - Spring boot: 2.1.4 -> 2.1.6
+          - Sprnig Data MongoDB: 2.1.6 -> 2.1.9
+          - Jackson: 2.9.8 -> 2.9.9
+          - Spring Session: 2.1.5 -> 2.1.7
+          - spring-session-ext-mongo: 2.1.5 -> 2.1.6
+          - Hibernate Validator: 6.0.16 -> 6.0.17
+          - commons-lang3: 3.8.1 -> 3.9
+          - jboss-logging: 3.3.2 -> 3.4.0
+
 2019-07-10 : ver 7.5.2
 
         * 機能追加・変更
