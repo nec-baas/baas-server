@@ -1,3 +1,85 @@
+2022/01/21: ver 7.5.6
+
+        * 使用するライブラリ、フレームワークのバージョン更新
+          - Javax.ws.rs: 2.1 -> 2.1.1
+          - Jersey: 2.28 -> 2.32
+          - jersey-spring4 -> jersey-spring5
+          - Spring Framework: 5.2.9 -> 5.3.15
+          - Spring Data MongoDB: 2.2.10 -> 3.3.0
+          - Spring Session: 2.3.1 -> 2.5.2
+          - spring-session-ext-mongo: 2.2.0 -> 2.3.2
+          - Spring Security: 5.4.2 -> 5.6.1
+          - Spring Ldap: 2.3.3.RELEASE -> 2.3.5.RELEASE
+          - Spring Boot: 2.3.4 -> 2.6.2
+          - MongoDB Java Driver: 3.12.7 -> 4.4.0
+          - pushy: 0.13.12 -> 0.15.0
+          - thymeleaf-spring5: 3.0.11 -> 3.0.14.RELEASE
+          - commons-cli: 1.4 -> 1.5.0
+          - commons-io: 2.8.0 -> 2.11.0
+          - commons-lang3: 3.11 -> 3.12.0
+          - jaxb-runtime: 2.3.3 -> 2.3.5
+          - slf4j: 1.7.30 -> 1.7.33
+          - janino: 3.1.2 -> 3.1.6
+          - jboss-logging: 3.4.1.FINAL -> 3.4.3.FINAL
+          - hibernate-validator: 6.0.21.FINAL -> 6.2.1.FINAL
+          - freemarker: 2.3.30 -> 2.3.31
+          - protobuf: 3.13.0 -> 3.19.3
+          - guava: 30.0-jre -> 31.0.1-jre
+          - ehcache: 3.9.0 -> 3.9.9
+          - camel: 2.25.2 -> 2.25.4
+          - swagger-parser: 1.0.52 -> 1.0.56
+          - lombok: 1.18.16 -> 1.18.22
+          - httpclient: 4.5.3 -> 4.5.13
+          - google-oauth-client: 1.31.1 -> 1.32.1
+          - nimbus-jose-jwt: 9.1.1 -> 9.15.2
+
+2021/04/28 : ver 7.5.5
+
+        * 不具合修正
+          - [12235] APNsの証明書を更新できない
+
+        * 使用するライブラリ、フレームワークのバージョン更新
+          - Jersey: 2.28 -> 2.32
+          - Spring Framework: 5.1.6 -> 5.2.9
+          - Spring Data MongoDB: 2.1.6 -> 2.2.10
+          - Spring Session: 2.1.5 -> 2.3.1
+          - spring-session-ext-mongo: 2.1.2 -> 2.2.0
+          - Spring Security: 5.1.5 -> 5.4.1
+          - Spring Boot: 2.1.6 -> 2.3.4
+          - Spring Security SAML 1.0.4 -> 1.0.10
+          - MongoDB Java Driver: 3.10.2 -> 3.12.7
+          - Hibernate Validator: 6.0.17 -> 6.0.21
+          - commons-codec: 1.12 -> 1.15
+          - commons-io: 2.6 -> 2.8.0
+          - commons-lang3: 3.9 -> 3.11
+          - commons-text: 1.6 -> 1.9
+          - commons-collections4: 4.3 -> 4.4
+          - Apache Camel: 2.23.1 -> 2.25.2
+          - ehcache: 3.7.1 -> 3.9.0
+          - Freemarker: 2.3.28 -> 2.3.30
+          - pushy: 0.13.8 -> 0.13.12
+          - slf4j: 1.7.26 -> 1.7.30
+          - janino: 3.0.12 -> 3.1.2
+          - jboss-logging: 3.4.0 -> 3.4.1
+          - jackson: 2.11.2 -> 2.11.3
+          - protobuf: 3.7.1 -> 3.13.0
+          - guava: 27.1-jre -> 30.0-jre
+          - amqp-client: 5.7.0 -> 5.10.0
+          - aws-sdk: 1.11.534 -> 1.11.888
+          - swagger-parser: 1.0.44 -> 1.0.52
+          - swagger-jaxrs: 2.0.7 -> 2.1.5
+          - lombok: 1.18.12 -> 1.18.16
+          - thymeleaf-layout-dialect: 2.4.1 -> 2.5.1
+          - google-oauth-client: 1.28.0 -> 1.31.1
+          - google-http-client: 1.29.0 -> 1.29.2
+          - nimbus-jose-jwt: 7.0.1 -> 9.1.1
+          - jaxb-runtime: 2.3.2 -> 2.3.3
+
+2020-07-27 : ver 7.5.4
+
+        * 不具合修正
+          - [12207] パスワードポリシに記号の最小文字数を指定すると、ポリシを満たしてもポリシエラーとなる問題を修正
+
 2019-12-20 : ver 7.5.3
 
         * 不具合修正
